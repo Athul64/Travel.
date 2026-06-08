@@ -1,0 +1,19 @@
+-- Backend Commands 
+
+cd backend
+npm init -y
+npm install express mongoose cors dotenv
+npm install --save-dev nodemon
+
+
+-- Run Backend Server
+
+nodemon server.js
+
+-- Frontend Commands
+
+cd frontend
+npx create-react-app .
+npm install
+npm install axios react-router-dom
+npm start
